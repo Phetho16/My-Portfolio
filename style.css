@@ -1,0 +1,96 @@
+
+
+*{
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.btn-light,
+.btn-light:hover,
+.btn-light:focus {
+  color: #333;
+  text-shadow: none;
+}
+
+.banner-wrap {
+
+  background-image: url(./assest/IMG_0423.jpg);
+
+  background-image:url(./assest/IMG_0423.jpg);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  position: relative;
+  z-index: 1;
+}
+
+.overlay {
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  background: black;
+  opacity: 50%;
+  position: absolute;
+  top: 0;
+}
+
+.cover-container {
+  max-width: 42em;
+}
+
+.nav-masthead .nav-link {
+  color: rgba(255, 255, 255, .5);
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+
+header {
+  background: black;
+  opacity: 80%;
+}
+
+
+header {
+  background:  black;
+  opacity: 80%;
+}
+
+.scrolling {
+  background: black;
+  opacity: 90%;
+  transition: all 0.5s;
+}
+
+
+.projects {
+  display: flex;
+  flex-direction: column; 
+}
+
+.card {
+    margin-bottom: 20px; 
+flex-direction: column; 
+}
+
+.projects{
+  display: flex;
+}
+
